@@ -1,0 +1,110 @@
+    README: Entropy Analysis of Executable Paths
+
+       Overview
+
+This Python script is designed to analyze and compute entropy 
+values of executable paths from a CSV file containing logs or command-line data.
+ The script identifies patterns in executable paths, calculates entropy values 
+(unigram, bigram, trigram, and weighted entropy), and visualizes the top and bottom entries based on entropy.
+ It includes functions for extracting executable file paths, calculating entropy, sorting data, and generating bar graphs for results visualization.
+
+
+
+       Features
+
+          1. File Loading and Validation
+   - Reads a user specified CSV file containing log data.
+   - checks column names to ensure necessary data exists for analysis.
+
+          2. Executable Path Extraction
+   - Extracts executable file paths (e.g., `.exe`, `.bat`) from command-line strings using regex.
+
+          3.  Entropy Calculation 
+   - Computes:
+     -  Unigram Entropy: Based on single characters.
+     -  Bigram Entropy : Based on pairs of characters.
+     -  Trigram Entropy : Based on groups of three characters.
+     -  Weighted Entropy : A composite score based on weighted averages:
+       - Unigram (20%)
+       - Bigram (30%)
+       - Trigram (50%).
+
+          4.  Sorting Results 
+   - Sorts entries based on  Weighted Entropy  to identify the most and least complex executable paths.
+
+          5.  Visualization 
+   - Creates horizontal bar graphs to display:
+     - Top 10 entries with highest entropy.
+     - Bottom 10 entries with lowest entropy.
+
+  
+
+       Code Modules
+
+          1.  Executable Path Extraction (`extract_exe`) 
+   - Extracts file paths using regex patterns matching `.exe`, `.bat`, etc., from log entries.
+
+          2.  N-Gram Entropy Calculation (`ngram_entropy`) 
+   - Calculates entropy for n-grams (unigram, bigram, trigram) using frequency distribution and Shannon entropy formula.
+
+          3.  Weighted Entropy 
+   - Combines individual entropies into a single weighted score for each executable path.
+
+          4.  Data Sorting 
+   - Sorts entries by `Weighted Entropy` for displaying top and bottom 10 results.
+
+          5.  Plotting 
+   - Uses `Matplotlib` to generate bar graphs for visualization:
+     - Green bars for top entries.
+     - Red bars for bottom entries.
+
+  
+
+       Input Requirements
+
+1.  CSV File 
+   - Must include one or more of the following columns:
+     - `Run Keys:Command Line`
+     - `Run Once Keys:Command Line`
+   - Optional column for naming executable paths:
+     - `Run Keys:Name`
+     - `Run Once Keys:Name`.
+
+2.  Executable Path Example 
+   - Example format:
+     ```
+     \path\to\file.exe
+     ```
+
+  
+
+       Output
+
+          1.  Console Output 
+   - Displays top and bottom 10 entries, showing:
+     - Executable name.
+     - Extracted path.
+     - Weighted entropy score.
+
+          2.  Graphs 
+   - Two bar graphs for entropy analysis:
+     -  Top Entries : Shows paths with highest entropy (most complex patterns).
+     -  Bottom Entries : Shows paths with lowest entropy (simplest patterns).
+
+  
+
+       How to Run
+
+          Step 1: Install Dependencies
+Ensure Python modules are installed:
+```bash
+pip install pandas matplotlib nltk
+```
+
+          Step 2: Execute Script
+Run the script in a Python environment and provide the CSV filename when prompted.
+
+          Step 3: Adjust Visualization
+Modify graph settings for personalized aesthetics (title, labels, colors, etc.).
+
+  

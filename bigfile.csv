@@ -1,0 +1,97 @@
+Run Keys:Type,Run Keys:Name,Run Keys:Command Line,Count
+System,SecuriteeStuf,C:\EDGE\system96\SecuriteeStufStray.exe,13562
+User,TwoDroveBegin,C:\Firefox\System96\TwoDroveBegin.exe/thsecondsetup,100001
+System,PlaneSecrets,C:\Uncommon Flies\Plane Secret\Plane.exe -plates,30345
+System,RandomName,C:\Edge\Random\x9v7tz8wnm.exe,56789
+System,TestExecutable,C:\Windows\Test\jdssjffhgukh.exe -args,112233
+User,ThirdExe,C:\Edge\Program\ThirdExe\testFile123.exe -debug,78901
+System,SampleExe,C:\Windows\Sample\SampleExecutable.exe,12345
+User,UnusualFile,C:\System\Unusual\UnusualFile.exe,67890
+System,RandomTest,C:\Downloads\RandomTest\testRun.exe,98765
+User,AnotherExe,C:\Program Files\AnotherExe\RandomFile.exe,44556
+System,MyTestFile,C:\Windows\MyTestFile\myTestFile.exe -setup,98765
+User,LaunchApp,C:\Users\User\Downloads\LaunchApp\launcher.exe -verbose,65432
+System,ExampleExe,C:\Edge\test\example.exe -option,12345
+System,EdgeFile,C:\Program Files\Edge\edge.exe,23456
+User,ExplorerApp,C:\Program Files\ExplorerApp\explorer.exe -test,9876
+User,DebugApp,C:\Users\User\App\debugger.exe -debug,56789
+System,CustomExecutable,C:\Custom\path\to\CustomExecutable.exe,98765
+User,TestRun,C:\Downloads\TestRun\runTest.exe -args,23456
+System,StartupApp,C:\Program Files\StartupApp\start.exe,34567
+System,CleanupFile,C:\Windows\Cleanup\cleaner.exe -force,45678
+User,SecurityApp,C:\Edge\Security\SecurityApp.exe -secure,56789
+User,UpdateExecutable,C:\Update\bin\update.exe -silent,78901
+System,ProgramUpdate,C:\Software\Update\programUpdate.exe,12345
+System,LegacyApp,C:\Legacy\path\legacyApp.exe,23456
+User,CustomPathApp,C:\Custom\CustomApp\customApp.exe,34567
+System,ExtraFile,C:\Extra\extraFile.exe,45678
+User,QuickTestApp,C:\QuickTest\testQuick.exe,56789
+System,TestApp,C:\TestApp\finalTest.exe,67890
+System,SetupTool,C:\Install\setup.exe,78901
+User,TestDownload,C:\Downloads\TestDownload\testDownload.exe,23456
+System,ExplorerUtility,C:\Windows\Explorer\utility.exe,34567
+User,DownloadApp,C:\Downloads\DownloaderApp\downloader.exe,12345
+System,FileProcessor,C:\Processing\process.exe -batch,98765
+User,AppDebugger,C:\App\debuggerApp\debugger.exe,67890
+System,ShellApp,C:\Windows\System32\shellApp.exe,9876
+System,SystemFile,C:\System\path\systemFile.exe,65432
+User,UtilityApp,C:\Tools\Utility\utility.exe,76543
+System,StartupTest,C:\Programs\StartupTest\startTest.exe,87654
+User,RunManager,C:\Programs\RunManager\manager.exe,12345
+System,CheckFile,C:\Path\to\checkFile.exe,54321
+System,AppManager,C:\App\manager.exe -run,34567
+User,FileCleanup,C:\Temp\FileCleaner\filecleaner.exe,23456
+System,RunTestApp,C:\Tests\runTestApp.exe,12345
+System,SyncApp,C:\Sync\app\sync.exe,98765
+User,AppRunner,C:\AppRunner\runApp.exe -test,45678
+System,TestBatch,C:\Batch\TestBatch.bat,12345
+User,DownloadManager,C:\Downloads\Manager\manager.exe,56789
+System,SecureFile,C:\Secure\path\secureFile.exe,23456
+System,SoftwareInstaller,C:\Installer\install.exe,98765
+User,CustomRunner,C:\CustomRunner\runCustom.exe,87654
+System,AutoUpdater,C:\Updater\autoUpdate.exe,76543
+System,BackupTool,C:\Backup\backupTool.exe,23456
+User,AppTester,C:\Test\Tester\appTester.exe,67890
+System,AppWorker,C:\Programs\AppWorker\worker.exe,12345
+User,DebugTool,C:\Tools\Debug\debugTool.exe,43210
+System,TestLauncher,C:\Launchers\TestLauncher.exe,23456
+User,AppSetup,C:\Setup\appSetup.exe,34567
+System,FileUpdater,C:\Updater\updateFile.exe,45678
+User,SystemRunner,C:\System\Runner\systemRunner.exe,23456
+System,CommandExecutor,C:\Executables\commandExecutor.exe,65432
+User,PatchTool,C:\Patch\tool\patchTool.exe,98765
+System,TestingExec,C:\Exec\testingExec.exe,12345
+User,FileExtractor,C:\Extractor\fileExtractor.exe,87654
+System,ApplicationRunner,C:\App\run\appRunner.exe,54321
+User,SecureRunner,C:\SecureRunner\secureRunner.exe,23456
+System,AppInstaller,C:\App\Installer\installApp.exe,34567
+User,WebDownloader,C:\WebDownload\webDownloader.exe,98765
+System,SystemBackup,C:\Backup\systemBackup.exe,43210
+User,UpdateProgram,C:\Program\Update\updateProgram.exe,87654
+System,QuickFileTest,C:\TestFile\quickTest.exe,76543
+User,AppCleaner,C:\Cleaner\appCleaner.exe,65432
+System,FileProcessor2,C:\Processor\fileProcessor.exe,12345
+System,AdvancedApp,C:\Advanced\advancedApp.exe,23456
+User,DebugProgram,C:\Debug\debugProgram.exe,34567
+System,ConfigUpdater,C:\Config\updateConfig.exe,45678
+User,DownloaderTool,C:\Tool\downloader\downloader.exe,98765
+System,LaunchTestApp,C:\LaunchTest\testApp.exe,23456
+System,BackupManager,C:\Backup\backupManager.exe,87654
+User,AppBackup,C:\Backup\appBackup.exe,76543
+System,FileFetcher,C:\Files\fetcher.exe,54321
+User,ProgramRunner,C:\Runner\runProgram.exe,65432
+System,InstallerApp,C:\Installer\installerApp.exe,12345
+User,SetupInstaller,C:\Setup\installer\setupInstaller.exe,23456
+System,ScriptRunner,C:\Scripts\scriptRunner.exe,34567
+User,FileCopier,C:\Copy\fileCopier.exe,45678
+System,NewInstaller,C:\NewInstall\installer.exe,98765
+User,AppTestRunner,C:\TestApp\appTestRunner.exe,76543
+System,QuickInstaller,C:\Quick\install\quickInstaller.exe,65432
+User,AppVerfication,C:\Verification\verify.exe,34567
+System,TestAutomation,C:\Automation\testAutomation.exe,23456
+System,ProgramManager,C:\Manager\programManager.exe,98765
+User,SyncTool,C:\Sync\syncTool.exe,76543
+System,DebuggerApp,C:\Debugger\debuggerApp.exe,54321
+User,RunnerTest,C:\RunTest\runnerTest.exe,23456
+System,FileManager,C:\Manager\fileManager.exe,87654
+System,AppValidator,C:\Validator\appValidator.exe,76543
