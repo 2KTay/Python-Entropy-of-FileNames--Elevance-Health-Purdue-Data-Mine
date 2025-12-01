@@ -1,6 +1,21 @@
-    README: Entropy Analysis of Executable Paths
+README: Entropy Analysis of Executable Paths
 
-       Overview
+**
+
+This project was completed as part of the Purdue Data Mine program in collaboration with Elevance Health (Anthem Inc) during Aug 2024–May 2025. 
+I am under an NDA regarding the real project details and dataset. 
+All data in this repository is fully synthetic and has been reviewed and approved by authorized Elevance Health personnel. 
+Email confirmation granting permission to upload this code is included in EvidenceThatIcanUploadToGithub.png.
+
+My work on the Abnormalities Outliers Project involved developing cybersecurity-focused detection methods using the MITRE ATT&CK framework and analyzing log data with Python and Pandas.
+I identified potential anomalies through Splunk (SPL) queries using a secure virtual machine environment.
+
+(Scroll Down to the Abnormalities Outliers Project)
+https://datamine.purdue.edu/elevance-health/
+
+**
+
+ Overview
 
 This Python script is designed to analyze and compute entropy 
 values of executable paths from a CSV file containing logs or command-line data.
@@ -108,3 +123,4 @@ Run the script in a Python environment and provide the CSV filename when prompte
 Modify graph settings for personalized aesthetics (title, labels, colors, etc.).
 
   
+
