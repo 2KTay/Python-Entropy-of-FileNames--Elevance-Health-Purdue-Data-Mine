@@ -1,9 +1,8 @@
 README: Entropy Analysis of Executable Paths
 
 **
-
-This project was completed as part of the Purdue Data Mine program in collaboration with an industry partner during Aug 2024-May 2025. 
-The data and code in this repository are fully synthetic and have been reviewed and approved for distribution. 
+This project was completed as part of the Purdue Data Mine program in collaboration with an industry partner during Aug 2024–May 2025. 
+The data and code in this repository is fully synthetic and has been reviewed and approved for distribution. 
 
 My work on the Abnormalities Outliers Project involved developing cybersecurity-focused detection methods using the MITRE ATT&CK framework and analyzing log data with Python and Pandas.
 I identified potential anomalies through Splunk (SPL) queries using a secure virtual machine environment.
@@ -121,6 +120,7 @@ Run the script in a Python environment and provide the CSV filename when prompte
 Modify graph settings for personalized aesthetics (title, labels, colors, etc.).
 
   
+
 
 
 
